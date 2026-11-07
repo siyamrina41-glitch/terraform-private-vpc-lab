@@ -8,8 +8,8 @@ terraform {
 }
 
 provider "aws" {
-  region              = "ap-southeast-2"
-  profile             = "default"
+  region  = "ap-southeast-2"
+  profile = "default"
 }
 
 resource "aws_vpc" "secure" {
