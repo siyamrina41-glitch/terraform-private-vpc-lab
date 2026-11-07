@@ -10,7 +10,6 @@ terraform {
 provider "aws" {
   region              = "ap-southeast-2"
   profile             = "default"
-  allowed_account_ids = ["987956624261"]
 }
 
 resource "aws_vpc" "secure" {
